@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    background-color: rgb(68, 68, 68);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    margin: 10px;
+    font-family: 'roboto', sans-serif;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    font-family: 'roboto', sans-serif;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 10px;
+    list-style-type: none;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links li .btn {
+    color: white;
+    background-color: rgb(25, 123, 216);
+    font-family: 'roboto', sans-serif;
+    border-width: 2px;
+    border-color: black;
+    box-shadow: 2px 2px black;
+    width: 100px;
+    height: 30px;
+}
